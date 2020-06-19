@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>public</title>
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width = device-width,initial-scale = 1">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Domine|Lato|Nunito+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  </head>
+  <body>
+    <header class="header">
+      <img class= "plus-icon "  src=" ./assets/img/plus.png">
+      <img class="search-icon" src="./assets/img/search-icon.png">
+      <a href="perfil.html">
+        <img class="profile-icon" src="./assets/img/profile-icon.png">
+      </a>
+    </header>
+    <main class="main">
+      <ul class="title">
+        <li class="title_quim">Química</li>
+        <li class="title_atua">Atualidades<li>
+        <li class="title_math">Matemática<li>
+        <li class="title_filo">Filosofia<li>
+        <li class="title_port">Português<li>
+        <li class="title_ing">Inglês<li>
+        <li class="title_hist">História<li>
+        <li class="title_geo">Geografia<li>
+        <li class="title_fis">Fisica<li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <a href="index.html">
+        <img class="home-icon" src="./assets/img/home-icon.png">
+      </a>
+
+      <a href="public.html">
+        <img class="public-icon" src="./assets/img/public-icon.png">
+      </a>
+
+      <span style="font-size:3rem;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="instituicao.html">Instituição</a>
+          <a href="tema.html">Tema</a>
+          <a href="data.html">Data</a>
+        </div>
+      </div>
+
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+      </script>
+    </footer>
+  </body>
+</html>
