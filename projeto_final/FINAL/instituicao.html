@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>instituicao</title>
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width = device-width,initial-scale = 1">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Domine|Lato|Nunito+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  </head>
+  <body>
+    <header class="header">
+      <img class="search-icon" src="./assets/img/search-icon.png">
+      <a href="perfil.html">
+        <img class="profile-icon" src="./assets/img/profile-icon.png">
+      </a>
+    </header>
+
+    <main class="main">
+      <div class="title2">Instituição: A</div>
+
+      <div class="container">
+        <a href="slide.html?key=mecanica">
+          <img class="slides-icon" src="./assets/img/mecanica.jpeg">
+        </a>
+
+        <a href="slide.html?key=estati">
+        <img class="slides-icon" src="./assets/img/estati.jpeg">
+        </a>
+
+        <a href="slide.html?key=quimi">
+        <img class="slides-icon" src="./assets/img/quimi.jpeg">
+        </a>
+
+        <a href="slide.html?key=rev">
+        <img class="slides-icon" src="./assets/img/rev.jpeg">
+        </a>
+
+        <a href="slide.html?key=histguerra">
+        <img class="slides-icon" src="./assets/img/histguerra.jpeg">
+        </a>
+
+        <a href="slide.html?key=genetica">
+        <img class="slides-icon" src="./assets/img/genetica.jpeg">
+        </a>
+
+        <a href="slide.html?key=prob">
+        <img class="slides-icon" src="./assets/img/prob.jpeg ">
+        </a>
+
+        <a href="slide.html?key=log"></a>
+        <img class="slides-icon" src="./assets/img/log.jpeg"> 
+        </a>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <a href="home.html">
+        <img class="home-icon" src="./assets/img/home-icon.png">
+      </a>
+
+      <a href="public.html">
+        <img class="public-icon" src="./assets/img/public-icon.png">
+      </a>
+
+      <span style="font-size:3rem;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="instituicao.html">Instituição</a>
+          <a href="tema.html">Tema</a>
+          <a href="data.html">Data</a>
+        </div>
+      </div>
+
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+      </script>
+    </footer>
+  </body>
+</html>
